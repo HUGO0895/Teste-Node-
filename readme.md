@@ -4,7 +4,7 @@
 ## 🗺️ LINHA DO TEMPO COMPLETA
 
 ### 1️⃣ **ENTRADA NO SISTEMA**
-![Tela Login](docs/figma/Tela%20Login.jpg)
+![Tela Login](docs/figma/Tela%20Login.png)
 > Tela de login do sistema
 
 ### 2️⃣ **GERENCIAMENTO DE USUÁRIOS**
