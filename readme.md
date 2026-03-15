@@ -73,7 +73,7 @@ AAKAER solicitou o desenvolvimento de uma solução capaz de fornecer uma base t
 |:------|:----------|
 | **main sempre estável** | Código pronto para produção |
 | **feature/<id>-desc** | Padrão de nome para branches |
-| **sem commit direto** | Nada commitado direto na `main` |
+| **sem commit de código direto** | Nenhum código commitado direto na `main` |
 | **PR obrigatório** | Toda mudança passa por Pull Request |
 | **revisão obrigatória** | Mínimo 1 approval antes do merge |
 
