@@ -35,6 +35,7 @@
   <a href ="#mvp"> MVP</a>  |
   <a href ="#cronogramaPJ"> Cronograma de Evolução do Projeto</a>  |
   <a href ="#sprint1-requisitos"> Sprint 1 - Requisitos</a>  |
+  <a href ="#cenarios-sprint1"> Cenários Sprint 1</a>  |
   <a href ="#escala-estimativa"> Escala de Estimativa de Esforço</a>  |
   <a href ="#product-backlog"> Product Backlog</a>  |
   <a href ="#equipe"> Equipe</a>  |
@@ -137,6 +138,50 @@ Descrição clara sobre o que está sendo entregue no commit criado e enviado pa
 | $\color{green}{\text{2}}$ | $\color{green}{\text{Alta}}$ | $\color{green}{\text{Como Analista de Qualidade,}}$ $\color{green}{\text{quero atribuir e manipular}}$ $\color{green}{\text{normas (emitente, título, data)}}$ $\color{green}{\text{técnicas ao sistema,}}$ $\color{green}{\text{para permitir melhor}}$ $\color{green}{\text{visualização das informações}}$ | $\color{green}{\text{11}}$ | $\color{green}{\text{1}}$ | $\color{green}{\text{⌛}}$ |
 | 3 | Alta | Como Analista de Qualidade, quero atribuir e manipular requisitos a uma norma, para que informações complementares fiquem registradas no sistema. | 13 | 1 | ⌛ |
 | $\color{green}{\text{4}}$ | $\color{green}{\text{Alta}}$ | $\color{green}{\text{Como Analista de Qualidade,}}$ $\color{green}{\text{quero realizar login}}$ $\color{green}{\text{informando meu email}}$ $\color{green}{\text{e senha para acessar}}$ $\color{green}{\text{o sistema.}}$ | $\color{green}{\text{8}}$ | $\color{green}{\text{1}}$ | $\color{green}{\text{⌛}}$ |
+
+<br>
+
+## 📋 Cenários de Teste - Sprint 1 <a id="cenarios-sprint1"></a>
+
+### User Story 1 - Cadastro de Projetista
+[📑 Visualizar Cenários Completos](docs/cenarios/sprint1/cenario-user-story-1.md)
+
+**Cenários:**
+- ✅ Cadastro realizado com sucesso
+- ✅ Campo nome obrigatório
+- ✅ Campo e-mail obrigatório
+- ✅ E-mail inválido
+- ✅ E-mail já cadastrado
+
+### User Story 2 - Cadastro de Normas Técnicas
+[📑 Visualizar Cenários Completos](docs/cenarios/sprint1/cenario-user-story-2.md)
+
+**Cenários:**
+- ✅ Cadastro de norma realizado com sucesso
+- ✅ Campos obrigatórios
+- ✅ Edição de norma
+- ✅ Exclusão de norma
+
+### User Story 3 - Cadastro de Requisitos
+[📑 Visualizar Cenários Completos](docs/cenarios/sprint1/cenario-user-story-3.md)
+
+**Cenários:**
+- ✅ Cadastro de requisito realizado com sucesso
+- ✅ Código de requisito duplicado na mesma norma
+- ✅ Edição de requisito
+- ✅ Visualização completa do requisito
+
+### User Story 4 - Login no Sistema
+[📑 Visualizar Cenários Completos](docs/cenarios/sprint1/cenario-user-story-4.md)
+
+**Cenários:**
+- ✅ Login realizado com sucesso
+- ✅ E-mail não cadastrado
+- ✅ Senha incorreta
+- ✅ Campos obrigatórios
+- ✅ Sessão expirada
+
+<br>
 
 ## 📊 Escala de Estimativa de Esforço <a id="escala-estimativa"></a>
  Pontuação | Significado | Estimativa | 
