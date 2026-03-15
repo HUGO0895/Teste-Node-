@@ -29,13 +29,15 @@
 <p align="center">
   <a href ="#Objetivo"> Objetivo</a>  |
   <a href ="#requisitos"> Requisitos do Cliente</a>  |  
+  <a href ="#estrategia-branches"> Estratégia de Branches</a>  |
+  <a href ="#tipos-commits"> Tipos de Commits</a>  |
+  <a href ="#componentes"> Componentes</a>  |
   <a href ="#mvp"> MVP</a>  |
-  <a href ="#cronogramaPJ"> Cronograma de Evolução do Projeto </a> |
-  <a href ="#cronograma"> Cronograma das Sprints</a>  |
-  <a href ="#dor"> DoR</a>  |
-  <a href ="#dod"> DoD</a>  |
-  <a href ="#backlog"> Backlog do Produto</a>  |
-  <a href ="#equipe"> Equipe</a> |
+  <a href ="#cronogramaPJ"> Cronograma de Evolução do Projeto</a>  |
+  <a href ="#sprint1-requisitos"> Sprint 1 - Requisitos</a>  |
+  <a href ="#escala-estimativa"> Escala de Estimativa de Esforço</a>  |
+  <a href ="#product-backlog"> Product Backlog</a>  |
+  <a href ="#equipe"> Equipe</a>  |
   <a href ="#focalpoint"> Focal Point</a>
 </p>
 
@@ -63,7 +65,8 @@ AAKAER solicitou o desenvolvimento de uma solução capaz de fornecer uma base t
 :black_small_square: Interoperabilidade: Estabelecer um conjunto de regras que permita a comunicação entre diferentes sistemas.
 
 :black_small_square: Documentação Técnica: Entregar manuais de instalação e do usuário, além da documentação da API e modelagem do banco de dados.
-# Estratégia de Branches
+
+# Estratégia de Branches <a id="estrategia-branches"></a>
 
 | Regra | Descrição |
 |:------|:----------|
@@ -73,7 +76,7 @@ AAKAER solicitou o desenvolvimento de uma solução capaz de fornecer uma base t
 | **PR obrigatório** | Toda mudança passa por Pull Request |
 | **revisão obrigatória** | Mínimo 1 approval antes do merge |
 
-## Tipos de Commits
+## Tipos de Commits <a id="tipos-commits"></a>
 | Tipo | Descrição |
 |------|-----------|
 | **feat** | Adição de um novo recurso ou funcionalidade |
@@ -84,7 +87,7 @@ AAKAER solicitou o desenvolvimento de uma solução capaz de fornecer uma base t
 | **test** | Adiciona ou modifica testes |
 | **chore** | Atualizações menores que não impactam diretamente a funcionalidade do código |
 
-## Componentes
+## Componentes <a id="componentes"></a>
 
 ### `<tipo>`
 Identifica a natureza da mudança realizada no commit. Deve ser um dos tipos listados acima.
@@ -119,7 +122,6 @@ Descrição clara sobre o que está sendo entregue no commit criado e enviado pa
 
 ## 📆 Cronograma de Evolução do Projeto <a id="cronogramaPJ"></a>
 
-
 | Sprint | Período |  Status  | Foco |
 |:------:|:-------:|:------------:|:----------:|
 | **Sprint 1**  | 16/03 - 05/04 | ⏳ |  |
@@ -128,7 +130,7 @@ Descrição clara sobre o que está sendo entregue no commit criado e enviado pa
 
 </br>
 
-## 📋 Sprint 1 - Requisitos
+## 📋 Sprint 1 - Requisitos <a id="sprint1-requisitos"></a>
 | ID | Prioridade | User Story | Estimativa | Sprint | Status |
 |:---|:---|:---|:---:|:---:|:---|
 | $\color{green}{\text{1}}$ | $\color{green}{\text{Alta}}$ | $\color{green}{\text{Como Analista de Qualidade,}}$ $\color{green}{\text{quero cadastrar um novo}}$ $\color{green}{\text{projetista na plataforma}}$ $\color{green}{\text{(inserindo nome e e-mail),}}$ $\color{green}{\text{para garantir o acesso ao}}$ $\color{green}{\text{sistema e suas funcionalidades}}$ | $\color{green}{\text{11}}$ | $\color{green}{\text{1}}$ | $\color{green}{\text{⌛}}$ |
@@ -136,7 +138,7 @@ Descrição clara sobre o que está sendo entregue no commit criado e enviado pa
 | 3 | Alta | Como Analista de Qualidade, quero atribuir e manipular requisitos a uma norma, para que informações complementares fiquem registradas no sistema. | 13 | 1 | ⌛ |
 | $\color{green}{\text{4}}$ | $\color{green}{\text{Alta}}$ | $\color{green}{\text{Como Analista de Qualidade,}}$ $\color{green}{\text{quero realizar login}}$ $\color{green}{\text{informando meu email}}$ $\color{green}{\text{e senha para acessar}}$ $\color{green}{\text{o sistema.}}$ | $\color{green}{\text{8}}$ | $\color{green}{\text{1}}$ | $\color{green}{\text{⌛}}$ |
 
-## 📊 Escala de Estimativa de Esforço
+## 📊 Escala de Estimativa de Esforço <a id="escala-estimativa"></a>
  Pontuação | Significado | Estimativa | 
 |:---:|:---|:---:|
 | **1-5** | Muito Pequeno | Até 3 dias |
@@ -144,8 +146,7 @@ Descrição clara sobre o que está sendo entregue no commit criado e enviado pa
 | **11-15** | Grande | Até 10 dias | 
 | **16-20** | Muito Grande | Até 15 dias|
 
-
-## 📋 Product Backlog - User Stories
+## 📋 Product Backlog - User Stories <a id="product-backlog"></a>
 
 | ID | Prioridade | User Story | Estimativa | Sprint | Status |
 |:---:|:---:|:---|:---:|:---:|:---:|
@@ -165,7 +166,6 @@ Descrição clara sobre o que está sendo entregue no commit criado e enviado pa
   
 ## :mortar_board: Equipe <a id="equipe"></a>
 
-
 |      Membro      |     Função     |                                 LinkedIn & GitHub                                  | 
 | :--------------: | :-----------: | :--------------------------------------------------------------------------------: | 
 |    Giovanni Martins   | Scrum Master | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Giommn) |
@@ -184,7 +184,6 @@ Descrição clara sobre o que está sendo entregue no commit criado e enviado pa
 <div align="center">  
   
 ## :globe_with_meridians: Focal Point <a id="focalpoint"></a>
-
 
 | P²              | M²       |
 | :-------------: | :------: |
